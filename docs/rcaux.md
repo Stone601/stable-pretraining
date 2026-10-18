@@ -8,9 +8,9 @@ After the lecture, I found that this question is directly studied in [*Predictiv
 
 The paper proposes RC-aux, a reachability-correction auxiliary objective that teaches a latent world model whether a goal state can be reached within a given action budget.
 
-## Planned contribution
+## Implementation
 
-This work-in-progress contribution will implement RC-aux in `stable-pretraining`, including:
+This contribution implements RC-aux in `stable-pretraining`, including:
 
 - a budget-conditioned reachability head;
 - temporal positive and hard-negative pairs;
